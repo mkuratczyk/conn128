@@ -32,7 +32,7 @@ func amqp10_conn() {
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("Usage: go run main.go <number of connections>")
+		fmt.Println("Usage: go run main.go [amqp091|amqp10] <number of connections>")
 		os.Exit(1)
 	}
 
